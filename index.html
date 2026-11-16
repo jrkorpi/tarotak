@@ -10,6 +10,10 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="description" content="Tarot AK, Alaska, Tarot.">
 
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  
   <style>
     body {
       margin: 0;
@@ -63,12 +67,13 @@
 }
 
 .outline-text {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: 'Archivo Black', Impact, sans-serif;
   font-size: min(44vw, 75vh);
   line-height: 0.8;
   margin: 0;
   color: transparent;
-  -webkit-text-stroke: 4px #000000;
+  -webkit-text-stroke: 0.35vw #000000; 
+  paint-order: stroke fill; 
   user-select: none;
 }
     
